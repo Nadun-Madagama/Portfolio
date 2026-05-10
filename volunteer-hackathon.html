@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Coordinator - Hackathon '26</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .detail-hero {
+            padding-top: 150px;
+            text-align: center;
+        }
+
+        .detail-icon {
+            font-size: 4rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+
+        .detail-title {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .detail-subtitle {
+            font-size: 1.2rem;
+            color: var(--main-color);
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+
+        .detail-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .event-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 1px solid rgba(var(--main-color-rgb), 0.2);
+            transition: var(--transition);
+        }
+
+        .gallery-img:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+            border-color: var(--main-color);
+        }
+
+        .detail-content p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            color: var(--text-color);
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            color: var(--main-color);
+            transform: translateX(-5px);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header scrolled">
+        <a href="index.html" class="logo">Nadun<span class="accent-text">.</span></a>
+        <nav class="navbar">
+            <a href="index.html#volunteer" class="nav-link">Back to Portfolio</a>
+        </nav>
+    </header>
+
+    <div class="scroll-progress"></div>
+
+    <section class="detail-hero section">
+        <div class="container">
+            <div class="glass-card pb-reveal fade-up">
+                <div class="hero-banner-container">
+                    <img src="assets/Hackthon'26/hackthon1.jpg" alt="Hackathon '26 Banner" class="hero-banner-img">
+                    <div class="hero-banner-overlay"></div>
+                </div>
+                <h1 class="detail-title">Event Coordinator</h1>
+                <p class="detail-subtitle">Hackathon '26 (Leo Club of University of Kelaniya)</p>
+
+                <div class="detail-content">
+                    <p><strong>Hackathon’26 – Event Coordination & Technical Execution</strong></p>
+                    <p>Hackathon’26, organized by the Leo Club of the University of Kelaniya, was a large-scale
+                        innovation-driven event that brought together participants from Leo Clubs across the Leo
+                        Multiple District Council 306 (Sri Lanka & Maldives). The event served as a platform for young
+                        innovators to collaborate, ideate, and present impactful solutions.</p>
+                    <p>As an Event Coordinator, I played a key role in the technical operations of the event. My
+                        responsibilities included managing presentation systems, coordinating projector setups, handling
+                        audio configurations, and ensuring smooth video playback throughout the sessions. I worked
+                        closely with multiple teams to maintain a seamless flow of activities, minimizing technical
+                        disruptions and enhancing the overall participant experience.</p>
+                    <p>This experience strengthened my skills in event management, technical coordination, teamwork, and
+                        problem-solving under pressure. It also provided me with the opportunity to support and witness
+                        innovative ideas evaluated by an experienced panel of judges, making it a highly rewarding and
+                        insightful journey.</p>
+                    <p>Being part of Hackathon’26 reflects my ability to manage real-world technical environments while
+                        contributing effectively to collaborative, high-impact events.</p>
+
+                    <h3 style="color: var(--text-color); margin-top: 3rem; margin-bottom: 1rem; font-size: 1.5rem;">
+                        Organizing Committee</h3>
+                    <div style="text-align: center; margin-bottom: 2rem;">
+                        <img src="assets/Hackthon'26/hackthon_OCflyer.jpg" alt="Organizing Committee Flyer"
+                            style="max-width: 350px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(var(--main-color-rgb), 0.2);">
+                    </div>
+
+                    <h3 style="color: var(--text-color); margin-top: 3rem; margin-bottom: 1rem; font-size: 1.5rem;">
+                        Event Gallery</h3>
+                    <div class="event-gallery">
+                        <img src="assets/Hackthon'26/hackthon1.jpg" alt="Hackathon 1" class="gallery-img">
+                        <img src="assets/Hackthon'26/hackthon2.jpg" alt="Hackathon 2" class="gallery-img">
+                        <img src="assets/Hackthon'26/hackthon3.jpg" alt="Hackathon 3" class="gallery-img">
+                        <img src="assets/Hackthon'26/hackthon4.jpg" alt="Hackathon 4" class="gallery-img">
+                        <img src="assets/Hackthon'26/hackthon5.jpg" alt="Hackathon 5" class="gallery-img">
+                        <img src="assets/Hackthon'26/hackthon6.jpg" alt="Hackathon 6" class="gallery-img">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nadun Madagama. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

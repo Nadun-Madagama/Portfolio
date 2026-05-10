@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Co-Chair - Project Breaking Free 4.0</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .detail-hero {
+            padding-top: 150px;
+            text-align: center;
+        }
+
+        .detail-icon {
+            font-size: 4rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+
+        .detail-title {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .detail-subtitle {
+            font-size: 1.2rem;
+            color: var(--main-color);
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+
+        .detail-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .event-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .event-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .event-gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 1px solid rgba(var(--main-color-rgb), 0.2);
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .gallery-img:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            border-color: var(--main-color);
+        }
+
+        .detail-content p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            color: var(--text-color);
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            color: var(--main-color);
+            transform: translateX(-5px);
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header class="header scrolled">
+        <a href="index.html" class="logo">Nadun<span class="accent-text">.</span></a>
+        <nav class="navbar">
+            <a href="index.html#volunteer" class="nav-link">Back to Portfolio</a>
+        </nav>
+    </header>
+
+    <div class="scroll-progress"></div>
+
+
+
+    <section class="detail-hero section">
+        <div class="container">
+            <div class="glass-card pb-reveal fade-up">
+                <div class="hero-banner-container">
+                    <img src="assets/Breaking Free 4.0/BreakingFree01.jpg" alt="Project Breaking Free 4.0 Banner" class="hero-banner-img">
+                    <div class="hero-banner-overlay"></div>
+                </div>
+                <h1 class="detail-title">Co-Chair</h1>
+                <p class="detail-subtitle">Project "Breaking Free 4.0"</p>
+
+                <div class="detail-content">
+                    <p>Currently spearheading the organizational and strategic efforts for a major impactful
+                        student-driven
+                        initiative targeting social awareness and youth empowerment. As Co-Chair, I am leading a large
+                        committee to successfully execute the upcoming event scheduled to conclude on April 30.</p>
+                    <p>My responsibilities include overseeing different teams, managing the event timeline, and
+                        ensuring seamless communication between stakeholders. The project aims to reach over 500
+                        students across more than 10 schools.</p>
+
+                    <h3 style="color: var(--text-color); margin-top: 2rem; margin-bottom: 1rem; font-size: 1.5rem;">Key
+                        Responsibilities:</h3>
+                    <ul style="color: var(--text-muted); padding-left: 1.2rem; line-height: 1.8;">
+                        <li>Managing the budget and gathering sponsorships to fund the awareness campaign.</li>
+                        <li>Coordinating with school principals and educational authorities for permissions.</li>
+                        <li>Organizing 3 core workshops aimed at high engagement from the student body.</li>
+                    </ul>
+
+                    <h3 style="color: var(--text-color); margin-top: 3rem; margin-bottom: 1rem; font-size: 1.5rem;">
+                        Organizing Committee</h3>
+                    <div style="text-align: center; margin-bottom: 2rem;">
+                        <img src="assets/Breaking Free 4.0/BreakingFree_OCflyer.jpeg" alt="Organizing Committee Flyer"
+                            style="max-width: 350px; width: 100%; height: auto; border-radius: 10px; border: 1px solid rgba(var(--main-color-rgb), 0.2); cursor: pointer;">
+                    </div>
+
+                    <h3 style="color: var(--text-color); margin-top: 3rem; margin-bottom: 1rem; font-size: 1.5rem;">
+                        Event Gallery</h3>
+                    <div class="event-gallery">
+                        <img src="assets/Breaking Free 4.0/BreakingFree01.jpg" alt="Breaking Free 4.0 - Phase 01 Group Photo" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree02.jpg" alt="Breaking Free 4.0 - Event Photo 2" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree03.jpg" alt="Breaking Free 4.0 - Event Photo 3" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree04.jpg" alt="Breaking Free 4.0 - Event Photo 4" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree05.jpg" alt="Breaking Free 4.0 - Event Photo 5" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree06.jpg" alt="Breaking Free 4.0 - Event Photo 6" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree07.jpeg" alt="Breaking Free 4.0 - Event Photo 7" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree08.jpg" alt="Breaking Free 4.0 - Event Photo 8" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree09.jpg" alt="Breaking Free 4.0 - Event Photo 9" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree10.jpg" alt="Breaking Free 4.0 - Event Photo 10" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree11.jpg" alt="Breaking Free 4.0 - Event Photo 11" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree12.jpeg" alt="Breaking Free 4.0 - Event Photo 12" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree13.jpeg" alt="Breaking Free 4.0 - Event Photo 13" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree14.jpg" alt="Breaking Free 4.0 - Event Photo 14" class="gallery-img">
+                        <img src="assets/Breaking Free 4.0/BreakingFree15.jpg" alt="Breaking Free 4.0 - Event Photo 15" class="gallery-img">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nadun Madagama. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

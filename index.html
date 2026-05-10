@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadun Madagama | Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <header class="header" id="header">
+        <a href="#home" class="logo magnetic-btn">Nadun<span class="accent-text">.</span></a>
+
+        <div class="menu-icon" id="menu-icon">
+            <i class='bx bx-menu'></i>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#qualifications" class="nav-link">Qualifications</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#volunteer" class="nav-link">Volunteer</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero section">
+        <div class="ambient-glow glow-1"></div>
+        <div class="ambient-glow glow-2"></div>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="greeting pb-reveal fade-up">Welcome to my digital space</span>
+                <h1 class="hero-title pb-reveal fade-up" style="transition-delay: 0.1s">
+                    Hello, I'm <br><span class="accent-text typing-name">Nadun Madagama</span>
+                </h1>
+                <div class="typing-container pb-reveal fade-up" style="transition-delay: 0.2s">
+                    <span class="typing-text"></span><span class="typing-cursor"></span>
+                </div>
+                <p class="hero-desc pb-reveal fade-up" style="transition-delay: 0.3s">
+                    A highly motivated computer science student specializing in <strong>Data Science</strong> and
+                    <strong>Cybersecurity</strong>. Dedicated to writing elegant code that transforms complex problems
+                    into secure, actionable solutions.
+                </p>
+                <div class="hero-btns pb-reveal fade-up" style="transition-delay: 0.4s">
+                    <a href="#projects" class="btn btn-primary magnetic-btn">View Projects</a>
+                    <a href="assets/CV Resume.pdf" target="_blank" class="btn btn-secondary magnetic-btn">Download CV</a>
+                </div>
+            </div>
+            <div class="hero-visual pb-reveal scale-in" style="transition-delay: 0.5s">
+                <div class="profile-frame tilt-card">
+                    <div class="glass-orb">
+                        <div class="inner-shape"></div>
+                    </div>
+                    <img src="assets/myphoto.png" alt="Nadun Madagama" class="hero-profile-img"
+                        onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%\' height=\'100%\'><rect width=\'100%\' height=\'100%\' fill=\'#020617\'/></svg>'">
+                    <i class='bx bx-code-alt floating-icon icon-1'></i>
+                    <i class='bx bx-shield-quarter floating-icon icon-2'></i>
+                    <i class='bx bx-data floating-icon icon-3'></i>
+                </div>
+                <div class="social-links" style="z-index: 10;">
+                    <a href="https://www.linkedin.com/in/nadunmadagama" target="_blank"
+                        class="social-link magnetic-btn"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Nadun-Madagama" target="_blank" class="social-link magnetic-btn"><i
+                            class='bx bxl-github'></i></a>
+                    <a href="https://www.facebook.com/mgn.pramuditha.3/" target="_blank" class="social-link magnetic-btn"><i
+                            class='bx bxl-facebook'></i></a>
+                    <a href="https://twitter.com" target="_blank" class="social-link magnetic-btn"><i
+                            class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header pb-reveal fade-up">
+                <h2 class="section-title">Core <span class="accent-text">Skills</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-container">
+                <!-- Frontend -->
+                <div class="skill-category-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.1s">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag magnetic-btn"><i class='bx bxl-html5'></i> HTML5</div>
+                        <div class="skill-tag magnetic-btn"><i class='bx bxl-css3'></i> CSS3</div>
+                        <div class="skill-tag magnetic-btn"><i class='bx bxl-javascript'></i> JavaScript</div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-category-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.15s">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag magnetic-btn"><i class='bx bxl-python'></i> Python</div>
+                        <div class="skill-tag magnetic-btn"><i class='bx bxl-java'></i> Java</div>
+                        <div class="skill-tag magnetic-btn"><i class='bx bx-code-alt'></i> C</div>
+                    </div>
+                </div>
+
+                <!-- Data Science & AI -->
+                <div class="skill-category-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.2s">
+                    <h3 class="category-title">Data Science & AI</h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag magnetic-btn"><i class='bx bx-data'></i> Data Analysis</div>
+                        <div class="skill-tag magnetic-btn"><i class='bx bx-brain'></i> Machine Learning</div>
+                        <div class="skill-tag magnetic-btn"><i class='bx bx-line-chart'></i> Pandas</div>
+                        <div class="skill-tag magnetic-btn"><i class='bx bx-bar-chart-alt'></i> Matplotlib</div>
+                    </div>
+                </div>
+
+                <!-- Cybersecurity & Networking -->
+                <div class="skill-category-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.3s">
+                    <h3 class="category-title">Security & Networking</h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag magnetic-btn"><i class='bx bx-shield-quarter'></i> Cybersecurity</div>
+                        <div class="skill-tag magnetic-btn"><i class='bx bx-network-chart'></i> Networking</div>
+                        <div class="skill-tag magnetic-btn"><i class='bx bx-lock-alt'></i> Threat Analysis</div>
+                    </div>
+                </div>
+
+                <!-- Professional Skills -->
+                <div class="skill-category-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.4s">
+                    <h3 class="category-title">Professional Skills</h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag magnetic-btn"><i class='bx bx-group'></i> Leadership</div>
+                        <div class="skill-tag magnetic-btn"><i class='bx bx-bulb'></i> Problem Solving</div>
+                        <div class="skill-tag magnetic-btn"><i class='bx bx-target-lock'></i> Strategic Planning</div>
+                        <div class="skill-tag magnetic-btn"><i class='bx bx-user-voice'></i> Negotiation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience section bg-alt">
+        <div class="container">
+            <div class="section-header pb-reveal fade-up">
+                <h2 class="section-title">Work <span class="accent-text">Experience</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="qual-grid">
+                <!-- Work Experience -->
+                <div class="qual-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.1s">
+                    <div class="qual-icon"><i class='bx bx-briefcase'></i></div>
+                    <div class="qual-content">
+                        <span class="qual-date">2024 - 2025</span>
+                        <h4>Internship • Commercial Bank of Ceylon</h4>
+                        <ul
+                            style="color: var(--text-muted); padding-left: 1.2rem; margin-top: 0.8rem; list-style-type: disc; font-size: 0.95rem;">
+                            <li style="margin-bottom: 0.5rem;">Assisted customers with day-to-day banking inquiries,
+                                account services, and transaction support, ensuring a smooth and professional service
+                                experience.</li>
+                            <li style="margin-bottom: 0.5rem;">Supported branch operations, including account openings,
+                                KYC updates, cheque deposits, and document verification.</li>
+                            <li style="margin-bottom: 0.5rem;">Handled card-related operations such as card issuance,
+                                renewal processing, and activation.</li>
+                            <li>Participated in Data Cleansing Project, identifying discrepancies in customer accounts
+                                and correcting them according to compliance standards.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="qualifications" class="qualifications section">
+        <div class="container">
+            <div class="section-header pb-reveal fade-up">
+                <h2 class="section-title">Academic & Professional <span class="accent-text">Qualifications</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Education -->
+            <h3 class="subsection-title pb-reveal fade-up"
+                style="margin-bottom: 1rem; text-align: center; color: var(--secondary-color); font-family: var(--font-heading); font-size: 1.5rem;">
+                Education</h3>
+            <div class="qual-grid">
+
+                <div class="qual-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.1s">
+                    <div class="qual-icon"><i class='bx bxs-graduation'></i></div>
+                    <div class="qual-content">
+                        <span class="qual-date">2025 - Present</span>
+                        <h4>Bachelor of Science (Hons) in Computer Science</h4>
+                        <p>University of Kelaniya - Sri Lanka</p>
+                    </div>
+                </div>
+
+                <div class="qual-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.2s">
+                    <div class="qual-icon"><i class='bx bxs-book-alt'></i></div>
+                    <div class="qual-content">
+                        <span class="qual-date">2023</span>
+                        <h4>G.C.E Advanced Level Examination (Physical Science)</h4>
+                        <p>Mahinda Rajapaksha College Matara</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Professional Qualifications -->
+            <h3 class="subsection-title pb-reveal fade-up"
+                style="margin-top: 2.5rem; margin-bottom: 1rem; text-align: center; color: var(--secondary-color); font-family: var(--font-heading); font-size: 1.5rem;">
+                Professional Qualifications</h3>
+            <div class="qual-grid">
+
+                <div class="qual-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.3s">
+                    <div class="qual-icon"><i class='bx bxs-certification'></i></div>
+                    <div class="qual-content">
+                        <span class="qual-date">2024 - 2025</span>
+                        <h4>Executive Diploma In Human Resource Management</h4>
+                        <p>IMS Campus</p>
+                    </div>
+                </div>
+
+                <div class="qual-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.4s">
+                    <div class="qual-icon"><i class='bx bx-desktop'></i></div>
+                    <div class="qual-content">
+                        <span class="qual-date">2024 - 2025</span>
+                        <h4>Diploma In Information and Communication Technology</h4>
+                        <p>IMS Campus</p>
+                    </div>
+                </div>
+
+                <div class="qual-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.5s">
+                    <div class="qual-icon"><i class='bx bx-award'></i></div>
+                    <div class="qual-content">
+                        <span class="qual-date">2025</span>
+                        <h4>Advance Certificate In Training & Human Resource Development</h4>
+                        <p>IMS Campus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header pb-reveal fade-up">
+                <h2 class="section-title">Featured <span class="accent-text">Projects</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card glass-card pb-reveal fade-up" style="transition-delay: 0.1s">
+                    <div class="project-img-wrapper">
+                        <img src="assets/Project - Breaking Free 4.0 Website/1 Home page.png" alt="Official Website of Project Breaking Free 4.0"
+                            onerror="this.style.opacity='0'">
+                        <div class="project-overlay">
+                            <a href="https://breakingfree.site" target="_blank" class="btn btn-sm btn-secondary magnetic-btn"><i
+                                    class='bx bx-link-external'></i> Demo</a>
+                            <a href="project-breaking-free.html" class="btn btn-sm btn-secondary magnetic-btn"
+                                style="margin-top: 5px;"><i class='bx bx-detail'></i> View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JS</span>
+                            <span>Python</span>
+                        </div>
+                        <h3>Official Website of Project Breaking Free 4.0</h3>
+                        <p>An interactive, educational storytelling platform designed to spread awareness through
+                            engaging UI elements and responsive design.</p>
+                    </div>
+                </div>
+
+
+                <div class="project-card glass-card pb-reveal fade-up" style="transition-delay: 0.2s">
+                    <div class="project-img-wrapper">
+                        <img src="assets/IT Unit/01.png" alt="Leo Club Official Website" onerror="this.style.opacity='0'">
+                        <div class="project-overlay">
+                            <a href="https://uokleos.org" target="_blank" class="btn btn-sm btn-secondary magnetic-btn"><i
+                                    class='bx bx-link-external'></i> Demo</a>
+                            <a href="project-leoclub.html" class="btn btn-sm btn-secondary magnetic-btn"
+                                style="margin-top: 5px;"><i class='bx bx-detail'></i> View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span>WordPress</span>
+                            <span>PHP</span>
+                        </div>
+                        <h3>Leo Club Official Website</h3>
+                        <p>The official web presence for the Leo Club of University of Kelaniya, featuring a modern, responsive design and interactive elements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="volunteer" class="volunteer section bg-alt">
+        <div class="container">
+            <div class="section-header pb-reveal fade-up">
+                <h2 class="section-title">Leadership & <span class="accent-text">Volunteer</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <h3 class="subsection-title pb-reveal fade-up"
+                style="margin-bottom: 2rem; text-align: center; color: var(--secondary-color); font-size: 1.8rem;">
+                Current Roles</h3>
+            <div class="volunteer-grid">
+                <!-- Role: Developer Summit 26 -->
+                <a href="volunteer-devsummit.html" class="auto-archive-role" data-end-date="2026-05-31"
+                    style="text-decoration: none; color: inherit; display: block;">
+                    <div class="volunteer-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.1s">
+                        <div class="volunteer-img-wrapper">
+                            <img src="assets/project1.png" alt="Developer Summit"
+                                style="filter: hue-rotate(220deg) brightness(0.6);">
+                        </div>
+                        <div class="volunteer-icon"><i class='bx bx-code-block'></i></div>
+                        <div class="volunteer-content-wrap">
+                            <h3>Co-Chair</h3>
+                            <p class="volunteer-project">Developer Summit '26</p>
+                            <span
+                                style="font-size: 0.85rem; color: var(--main-color); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.3rem;"><i
+                                    class='bx bx-calendar'></i> 2026/03/14 - Present</span>
+                            <p class="volunteer-desc">Spearheading organizational and strategic efforts for the major
+                                student-driven tech summit organized by FOSS Community UOK.</p>
+                            <div class="volunteer-stats">
+                                <span class="badge">Event Management</span>
+                                <span class="badge">Open Source</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+
+
+                <!-- Role 1: Project Breaking Free -->
+                <a href="volunteer-cochair.html" class="auto-archive-role" data-end-date="2026-04-30"
+                    style="text-decoration: none; color: inherit; display: block;">
+                    <div class="volunteer-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.3s">
+                        <div class="volunteer-img-wrapper">
+                            <img src="assets/Breaking Free 4.0/BreakingFree01.jpg" alt="Project Breaking Free 4.0">
+                        </div>
+                        <div class="volunteer-icon"><i class='bx bxs-group'></i></div>
+                        <div class="volunteer-content-wrap">
+                            <h3>Co-Chair</h3>
+                            <p class="volunteer-project">Project "Breaking Free 4.0"</p>
+                            <span
+                                style="font-size: 0.85rem; color: var(--main-color); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.3rem;"><i
+                                    class='bx bx-calendar'></i> 2026/02/11 - Present</span>
+                            <p class="volunteer-desc">Currently spearheading organizational and strategic efforts for a
+                                major impactful student-driven initiative targeting social awareness.</p>
+                            <div class="volunteer-stats">
+                                <span class="badge">1000+ Lives</span>
+                                <span class="badge">10+ Sessions</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Role 2: IT Unit Member -->
+                <a href="volunteer-itunit.html" class="auto-archive-role" data-end-date="2026-04-30"
+                    style="text-decoration: none; color: inherit; display: block;">
+                    <div class="volunteer-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.4s">
+                        <div class="volunteer-img-wrapper">
+                            <img src="assets/event-itunit.png" alt="IT Unit">
+                        </div>
+                        <div class="volunteer-icon"><i class='bx bx-laptop'></i></div>
+                        <div class="volunteer-content-wrap">
+                            <h3>IT Unit Member</h3>
+                            <p class="volunteer-project">Leo Club of University of Kelaniya</p>
+                            <span
+                                style="font-size: 0.85rem; color: var(--main-color); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.3rem;"><i
+                                    class='bx bx-calendar'></i> 2026/01/01 - Present</span>
+                            <p class="volunteer-desc">Currently serving as an IT Unit member. Contributed to building
+                                the official club website from scratch as part of a 5-member development team.</p>
+                            <div class="volunteer-stats">
+                                <span class="badge">Web Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Role 5: Delegates Coordination -->
+                <a href="volunteer-bestspeaker.html" style="text-decoration: none; color: inherit; display: block;">
+                    <div class="volunteer-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.5s">
+                        <div class="volunteer-img-wrapper">
+                            <img src="assets/event-bestspeaker.png" alt="Best Speaker">
+                        </div>
+                        <div class="volunteer-icon"><i class='bx bx-user-voice'></i></div>
+                        <div class="volunteer-content-wrap">
+                            <h3>Delegates Coordination Team</h3>
+                            <p class="volunteer-project">Best Speaker (Gavel Club)</p>
+                            <span
+                                style="font-size: 0.85rem; color: var(--main-color); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.3rem;"><i
+                                    class='bx bx-calendar'></i> 2025/12/26 - Present</span>
+                            <p class="volunteer-desc">Managing delegate coordination and participant communication for
+                                “Best Speaker,” an inter-university speech contest.</p>
+                            <div class="volunteer-stats">
+                                <span class="badge">Communication</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <h3 class="subsection-title pb-reveal fade-up"
+                style="margin-top: 4rem; margin-bottom: 2rem; text-align: center; color: var(--secondary-color); font-size: 1.8rem;">
+                Past Roles</h3>
+            <div class="volunteer-grid">
+                <!-- Role: Hackathon 26 -->
+                <a href="volunteer-hackathon.html" style="text-decoration: none; color: inherit; display: block;">
+                    <div class="volunteer-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.1s">
+                        <div class="volunteer-img-wrapper">
+                            <img src="assets/Hackthon'26/hackthon1.jpg" alt="Hackathon '26">
+                        </div>
+                        <div class="volunteer-icon"><i class='bx bx-calendar-event'></i></div>
+                        <div class="volunteer-content-wrap">
+                            <h3>Event Coordinator</h3>
+                            <p class="volunteer-project">Hackathon '26 (Leo Club)</p>
+                            <span
+                                style="font-size: 0.85rem; color: var(--main-color); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.3rem;"><i
+                                    class='bx bx-calendar'></i> 2026/03/12 - 2026/04/02</span>
+                            <p class="volunteer-desc">Managed technical operations, presentation systems, and
+                                audio-visual setups to ensure a seamless experience for a large-scale innovation-driven
+                                hackathon.</p>
+                            <div class="volunteer-stats">
+                                <span class="badge">Technical Execution</span>
+                                <span class="badge">Event Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Role 4: Logistics Team Member -->
+                <a href="volunteer-fctshield.html" style="text-decoration: none; color: inherit; display: block;">
+                    <div class="volunteer-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.2s">
+                        <div class="volunteer-img-wrapper">
+                            <img src="assets/event-fctshield.png" alt="FCT Shield">
+                        </div>
+                        <div class="volunteer-icon"><i class='bx bx-cricket-ball'></i></div>
+                        <div class="volunteer-content-wrap">
+                            <h3>Logistics Team Member</h3>
+                            <p class="volunteer-project">FCT Shield (Faculty Hard Ball Tournament)</p>
+                            <span
+                                style="font-size: 0.85rem; color: var(--main-color); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.3rem;"><i
+                                    class='bx bx-calendar'></i> 2026/01/09 - 2026/03/22</span>
+                            <p class="volunteer-desc">Served in the logistics team. Responsible for
+                                coordination of equipment, scheduling, and overall operational support.</p>
+                            <div class="volunteer-stats">
+                                <span class="badge">Logistics Support</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Role 3: First Year Coordinator -->
+                <a href="volunteer-algoridma.html" style="text-decoration: none; color: inherit; display: block;">
+                    <div class="volunteer-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.3s">
+                        <div class="volunteer-img-wrapper">
+                            <img src="assets/event-algoridma.png" alt="AlgoRidma">
+                        </div>
+                        <div class="volunteer-icon"><i class='bx bx-music'></i></div>
+                        <div class="volunteer-content-wrap">
+                            <h3>First Year Coordinator</h3>
+                            <p class="volunteer-project">AlgoRidma (CS Students’ Association)</p>
+                            <span
+                                style="font-size: 0.85rem; color: var(--main-color); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.3rem;"><i
+                                    class='bx bx-calendar'></i> 2025/10/17 - 2026/01/06</span>
+                            <p class="volunteer-desc">Coordinated first-year student involvement in a large-scale
+                                musical concert. Managed communication, participation, and event-day coordination.</p>
+                            <div class="volunteer-stats">
+                                <span class="badge">Event Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Role 6: Program Team Member -->
+                <a href="volunteer-accelerator.html" style="text-decoration: none; color: inherit; display: block;">
+                    <div class="volunteer-card glass-card tilt-card pb-reveal fade-up" style="transition-delay: 0.4s">
+                        <div class="volunteer-img-wrapper">
+                            <img src="assets/event-accelerator.png" alt="Project Accelerator">
+                        </div>
+                        <div class="volunteer-icon"><i class='bx bx-calendar-event'></i></div>
+                        <div class="volunteer-content-wrap">
+                            <h3>Program Team Member</h3>
+                            <p class="volunteer-project">Project Accelerator</p>
+                            <span
+                                style="font-size: 0.85rem; color: var(--main-color); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.3rem;"><i
+                                    class='bx bx-calendar'></i> 2025/11/22 - 2026/01/06</span>
+                            <p class="volunteer-desc">Organized a university-level panel discussion with industry
+                                leaders. Assisted in planning, communication, and execution for smooth event flow.</p>
+                            <div class="volunteer-stats">
+                                <span class="badge">Panel Discussion</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header pb-reveal fade-up">
+                <h2 class="section-title">Get In <span class="accent-text">Touch</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="contact-wrapper glass-card pb-reveal fade-up">
+                <div class="contact-info">
+                    <h3>Let's collaborate on your next big idea.</h3>
+                    <p>I am actively seeking internship opportunities starting 2026 in Data Science and Cybersecurity.
+                        My inbox is always open for opportunities, questions, or just a tech chat.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class='bx bx-envelope'></i></div>
+                            <div class="contact-text">
+                                <span>Email Me At</span>
+                                <a href="mailto:mgnpramuditha@outlook.com">mgnpramuditha@outlook.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class='bx bx-phone'></i></div>
+                            <div class="contact-text">
+                                <span>Call Me At</span>
+                                <a href="tel:+94789178885">078 917 8885</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class='bx bx-map'></i></div>
+                            <div class="contact-text">
+                                <span>Location</span>
+                                <p>Sri Lanka</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/nadunmadagama" target="_blank"
+                            class="social-link magnetic-btn"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/Nadun-Madagama" target="_blank" class="social-link magnetic-btn"><i
+                                class='bx bxl-github'></i></a>
+                        <a href="https://www.facebook.com/mgn.pramuditha.3/" target="_blank"
+                            class="social-link magnetic-btn"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="social-link magnetic-btn"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="subject" required placeholder=" ">
+                        <label for="subject">Subject</label>
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="4" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                        <div class="input-line"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit magnetic-btn">
+                        <span>Send Message</span> <i class='bx bx-send'></i>
+                        <div class="btn-loader"></div>
+                    </button>
+                    <div class="form-messages">
+                        <p class="success-message" id="success-message"><i class='bx bx-check-circle'></i> Message sent
+                            successfully!</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <a href="#home" class="logo">Nadun<span class="accent-text">.</span></a>
+                <p>Building the digital secure future, one byte at a time.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nadun Madagama. All Rights Reserved.</p>
+                <a href="#home" class="back-to-top magnetic-btn">
+                    <i class='bx bx-up-arrow-alt'></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

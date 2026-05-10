@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistics Team Member - FCT Shield</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .detail-hero {
+            padding-top: 150px;
+            text-align: center;
+        }
+
+        .detail-icon {
+            font-size: 4rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+
+        .detail-title {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .detail-subtitle {
+            font-size: 1.2rem;
+            color: var(--main-color);
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+
+        .detail-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+
+        .event-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 1px solid rgba(var(--main-color-rgb), 0.2);
+            transition: var(--transition);
+        }
+
+        .gallery-img:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+            border-color: var(--main-color);
+        }
+
+        .detail-content p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            color: var(--text-color);
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            color: var(--main-color);
+            transform: translateX(-5px);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header scrolled">
+        <a href="index.html" class="logo">Nadun<span class="accent-text">.</span></a>
+        <nav class="navbar">
+            <a href="index.html#volunteer" class="nav-link">Back to Portfolio</a>
+        </nav>
+    </header>
+
+    <div class="scroll-progress"></div>
+
+    <section class="detail-hero section">
+        <div class="container">
+            <div class="glass-card pb-reveal fade-up">
+                <div class="hero-banner-container">
+                    <img src="assets/event-fctshield.png" alt="FCT Shield Banner" class="hero-banner-img">
+                    <div class="hero-banner-overlay"></div>
+                </div>
+                <h1 class="detail-title">Logistics Team Member</h1>
+                <p class="detail-subtitle">FCT Shield (Faculty Hard Ball Tournament)</p>
+
+                <div class="detail-content">
+
+                    <p>Served in the logistics team for FCT Shield, a prominent faculty-level hard ball
+                        cricket tournament organized by the Faculty of Computing and Technology.</p>
+                    <p>I acted as a crucial support pillar ensuring the smooth execution of all tournament matches. This
+                        included managing tournament gear, communicating with groundskeepers, and assisting in the
+                        physical setup of the venue prior to the games.</p>
+
+                    <h3 style="color: var(--text-color); margin-top: 2rem; margin-bottom: 1rem; font-size: 1.5rem;">Key
+                        Contributions:</h3>
+                    <ul style="color: var(--text-muted); padding-left: 1.2rem; line-height: 1.8;">
+                        <li>Managed sports equipment and prepared grounds prior to the matches.</li>
+                        <li>Coordinated with participating teams regarding schedules and match requirements.</li>
+                        <li>Maintained an organized workflow within the committee during intense tournament days.</li>
+                    </ul>
+
+                    <h3 style="color: var(--text-color); margin-top: 3rem; margin-bottom: 1rem; font-size: 1.5rem;">
+                        Event Gallery</h3>
+                    <div class="event-gallery">
+                        <img src="assets/gallery-1.png" alt="Event Photo 1" class="gallery-img">
+                        <img src="assets/gallery-2.png" alt="Event Photo 2" class="gallery-img">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nadun Madagama.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
